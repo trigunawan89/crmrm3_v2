@@ -1,0 +1,8 @@
+{
+  "name": "crirm3_v2",
+  "app_id": "bc932303",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

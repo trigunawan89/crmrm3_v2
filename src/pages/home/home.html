@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Developer Data
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding>
+ 
+  <ion-list>
+    <ion-item *ngFor="let q of RM3Questions">
+      <h2>{{ q.question_detail_desc }}</h2>
+    </ion-item>
+  </ion-list>
+</ion-content>
